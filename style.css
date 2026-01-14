@@ -1,0 +1,253 @@
+.main {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.click {
+  border-radius: 400px;
+  height: 200px;
+  width: 200px;
+  font-size: 25px;
+  background: linear-gradient(1deg, #8377f3, #589df7);
+  margin-top: 50px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.reset {
+
+  margin-top: 10px;
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f9fdbe, #ff8e53);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+
+}
+
+.number {
+  font-size: 30px;
+}
+
+.x2 {
+  background: linear-gradient(135deg, #63a5fc, #1f0385);
+  border-radius: 10px;
+  height: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  
+}
+
+.shop {
+ display: flex;
+  justify-content: space-between; /* Распределяет элементы по краям */
+  align-items: center;
+
+}
+
+.x3 {
+  background: linear-gradient(135deg, #ee645a, #b405e0);
+  border-radius: 10px;
+  height: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.x5 {
+  background: linear-gradient(135deg, #1ac2f5, #78f894);
+  border-radius: 10px;
+  height: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.x10 {
+  background: linear-gradient(135deg, #f000f8, #78f894);
+  border-radius: 10px;
+  height: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.click:hover {
+  transform: scale(1.08);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+.click:active {
+  transform: scale(0.95);
+  box-shadow: 0 6px 12px rgba(155, 85, 85, 0.2);
+}
+
+.reset:hover {
+  transform: scale(1.08);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+.reset:active {
+  transform: scale(0.95);
+  box-shadow: 0 6px 12px rgba(155, 85, 85, 0.2);
+}
+
+.x2:hover {
+  transform: scale(1.08);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+.x2:active {
+  transform: scale(0.95);
+  box-shadow: 0 6px 12px rgba(155, 85, 85, 0.2);
+}
+
+.x3:hover:hover {
+  transform: scale(1.08);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+.x3:active {
+  transform: scale(0.95);
+  box-shadow: 0 6px 12px rgba(155, 85, 85, 0.2);
+}
+
+.x5:hover:hover {
+  transform: scale(1.08);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+.x5:active {
+  transform: scale(0.95);
+  box-shadow: 0 6px 12px rgba(155, 85, 85, 0.2);
+}
+
+.x10:hover:hover {
+  transform: scale(1.08);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+}
+
+.x10:active {
+  transform: scale(0.95);
+  box-shadow: 0 6px 12px rgba(155, 85, 85, 0.2);
+}
+
+.name {
+margin-right: 10px;
+    display: flex;
+  justify-content: flex-start;
+}
+
+.prava {
+  background: linear-gradient(135deg, #9000e4, #f36969);
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+  padding-bottom: 86px;
+}
+
+body {
+  margin: 0 auto;
+ background-color: #c2fbff;
+  
+}
+
+.img {
+ width: 50px;
+}
+
+.rec {
+    display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+  
+}
+
+.right {
+    display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 10px;
+   justify-content: space-between;
+   margin-right: 10px;
+  
+}
+
+.red {
+    background: linear-gradient(135deg, #f80000, #f58888);
+  border-radius: 10px;
+  height: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  
+}
+
+
+.level1 {
+  background-color: #f3958e;
+
+}
+
+.level2 {
+  background-color: #0057f8;
+}
+
+.level3 {
+  background-color: #07e61288;
+}
+
+.level4 {
+  background: linear-gradient(135deg,#858484, #000000 );
+}
+
+.resetbgc {
+  background-color: #c2fbff;;
+}
+
+.end {
+  margin-right: 1640px;
+}
+
+
+.left {
+   display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+
+}
+
+.blue {
+    background: linear-gradient(135deg, #00b2f8, #171ae7);
+  border-radius: 10px;
+  height: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.green {
+    background: linear-gradient(135deg, #00f853, #1d460288);
+  border-radius: 10px;
+  height: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.secret {
+  background: linear-gradient(135deg, #404446, #ffffff8c);
+  border-radius: 10px;
+  height: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.nm {
+  display: none;
+}
+
+.prava1 {
+  margin-top: 35px;
+}
+
